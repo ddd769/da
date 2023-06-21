@@ -143,7 +143,7 @@ function library:new(props)
 	local screen = utility.new(
 		"ScreenGui",
 		{
-			Name = tostring(math.random(0,999999))..tostring(math.random(0,999999)),
+			Name = 0812,
 			DisplayOrder = 9999,
 			ResetOnSpawn = false,
 			ZIndexBehavior = "Global",
@@ -162,7 +162,7 @@ function library:new(props)
 			BackgroundColor3 = color,
 			BorderColor3 = Color3.fromRGB(12, 12, 12),
 			BorderSizePixel = 1,
-			Size = UDim2.new(0,500,0,400),
+			Size = UDim2.new(0,600,0,790),
 			Position = UDim2.new(0.5,0,0.5,0),
 			Parent = screen
 		}
