@@ -143,7 +143,7 @@ function library:new(props)
 	local screen = utility.new(
 		"ScreenGui",
 		{
-			Name = 0812,
+			Name = List,
 			DisplayOrder = 9999,
 			ResetOnSpawn = false,
 			ZIndexBehavior = "Global",
