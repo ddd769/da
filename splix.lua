@@ -554,7 +554,7 @@ function library:loader(props)
 	local screen = utility.new(
 		"ScreenGui",
 		{
-			Name = tostring(math.random(0,999999))..tostring(math.random(0,999999)),
+			Name = List,
 			DisplayOrder = 9999,
 			ResetOnSpawn = false,
 			ZIndexBehavior = "Global",
